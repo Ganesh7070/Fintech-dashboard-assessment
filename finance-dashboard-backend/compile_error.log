@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ demo ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ demo ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 27 source files with javac [debug parameters release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/example/demo/service/FinancialRecordService.java:[45,60] reference to where is ambiguous
+  both method <T>where(org.springframework.data.jpa.domain.Specification<T>) in org.springframework.data.jpa.domain.Specification and method <T>where(org.springframework.data.jpa.domain.PredicateSpecification<T>) in org.springframework.data.jpa.domain.Specification match
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/example/demo/security/WebSecurityConfig.java:[49,50] constructor DaoAuthenticationProvider in class org.springframework.security.authentication.dao.DaoAuthenticationProvider cannot be applied to given types;
+  required: org.springframework.security.core.userdetails.UserDetailsService
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/example/demo/security/WebSecurityConfig.java:[51,21] cannot find symbol
+  symbol:   method setUserDetailsService(com.example.demo.security.UserDetailsServiceImpl)
+  location: variable authProvider of type org.springframework.security.authentication.dao.DaoAuthenticationProvider
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.087 s
+[INFO] Finished at: 2026-04-08T15:01:45+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project demo: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/example/demo/service/FinancialRecordService.java:[45,60] reference to where is ambiguous
+[ERROR]   both method <T>where(org.springframework.data.jpa.domain.Specification<T>) in org.springframework.data.jpa.domain.Specification and method <T>where(org.springframework.data.jpa.domain.PredicateSpecification<T>) in org.springframework.data.jpa.domain.Specification match
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/example/demo/security/WebSecurityConfig.java:[49,50] constructor DaoAuthenticationProvider in class org.springframework.security.authentication.dao.DaoAuthenticationProvider cannot be applied to given types;
+[ERROR]   required: org.springframework.security.core.userdetails.UserDetailsService
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/example/demo/security/WebSecurityConfig.java:[51,21] cannot find symbol
+[ERROR]   symbol:   method setUserDetailsService(com.example.demo.security.UserDetailsServiceImpl)
+[ERROR]   location: variable authProvider of type org.springframework.security.authentication.dao.DaoAuthenticationProvider
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
