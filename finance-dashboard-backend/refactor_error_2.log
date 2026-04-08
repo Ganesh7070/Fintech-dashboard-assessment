@@ -1,0 +1,144 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.finance:finance-dashboard >--------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ finance-dashboard ---
+[INFO] Deleting C:\Users\gkute\Downloads\finance-dashboard-backend (1)\finance-dashboard-backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ finance-dashboard ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ finance-dashboard ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 27 source files with javac [debug parameters release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/DemoApplication.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/DemoApplication.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/config/OpenApiConfig.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/config/OpenApiConfig.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/AuthController.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/AuthController.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/DashboardController.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/DashboardController.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/RecordController.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/RecordController.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/UserController.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/UserController.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/AuthResponse.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/AuthResponse.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/DashboardSummary.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/DashboardSummary.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/LoginRequest.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/LoginRequest.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/RecordRequest.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/RecordRequest.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/RegisterRequest.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/RegisterRequest.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/FinancialRecord.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/FinancialRecord.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/RecordType.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/RecordType.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/Role.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/Role.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/User.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/User.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/exception/GlobalExceptionHandler.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/exception/GlobalExceptionHandler.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/repository/FinancialRecordRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/repository/FinancialRecordRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/repository/UserRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/repository/UserRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/AuthEntryPointJwt.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/AuthEntryPointJwt.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/AuthTokenFilter.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/AuthTokenFilter.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/JwtUtils.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/JwtUtils.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/UserDetailsImpl.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/UserDetailsImpl.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/UserDetailsServiceImpl.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/UserDetailsServiceImpl.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/WebSecurityConfig.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/WebSecurityConfig.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/service/DashboardService.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/service/DashboardService.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/service/FinancialRecordService.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/service/FinancialRecordService.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/service/UserService.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/service/UserService.java:[1,10] class, interface, enum, or record expected
+[INFO] 54 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.944 s
+[INFO] Finished at: 2026-04-08T15:18:26+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project finance-dashboard: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/DemoApplication.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/DemoApplication.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/config/OpenApiConfig.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/config/OpenApiConfig.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/AuthController.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/AuthController.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/DashboardController.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/DashboardController.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/RecordController.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/RecordController.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/UserController.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/controller/UserController.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/AuthResponse.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/AuthResponse.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/DashboardSummary.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/DashboardSummary.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/LoginRequest.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/LoginRequest.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/RecordRequest.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/RecordRequest.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/RegisterRequest.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/dto/RegisterRequest.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/FinancialRecord.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/FinancialRecord.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/RecordType.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/RecordType.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/Role.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/Role.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/User.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/entity/User.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/exception/GlobalExceptionHandler.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/exception/GlobalExceptionHandler.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/repository/FinancialRecordRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/repository/FinancialRecordRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/repository/UserRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/repository/UserRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/AuthEntryPointJwt.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/AuthEntryPointJwt.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/AuthTokenFilter.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/AuthTokenFilter.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/JwtUtils.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/JwtUtils.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/UserDetailsImpl.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/UserDetailsImpl.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/UserDetailsServiceImpl.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/UserDetailsServiceImpl.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/WebSecurityConfig.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/security/WebSecurityConfig.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/service/DashboardService.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/service/DashboardService.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/service/FinancialRecordService.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/service/FinancialRecordService.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/service/UserService.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/gkute/Downloads/finance-dashboard-backend (1)/finance-dashboard-backend/src/main/java/com/finance/dashboard/service/UserService.java:[1,10] class, interface, enum, or record expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
